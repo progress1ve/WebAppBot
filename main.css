@@ -60,7 +60,7 @@ header nav ul li {
 
 header nav ul li a {
     padding: 15px;
-    color: #000;
+    color: #fff;
     font-size: calc(var(--index) / 1);
     display: block;
 }
