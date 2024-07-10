@@ -12,7 +12,7 @@
 }
 
 body {
-    height: 100vh;
+    min-height: 100vh;
     background: url(img/wallpaperflare.com_wallpaper\ \(1\).jpg) no-repeat;
     background-size: cover;
     background-position: center;
@@ -34,12 +34,12 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    background: #151723;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    box-shadow: 0 5px 10px #000000d5;
+    z-index: 100;
 }
 
 header .logo {
@@ -59,22 +59,21 @@ header nav ul li {
 }
 
 header nav ul li a {
-    padding: 15px;
+    padding: 6px 15px;
     color: #fff;
     font-size: calc(var(--index) / 1);
-    display: block;
+    margin-left: 12px;
 }
 
 header nav ul li a:hover {
-    background-color: #b78b66;
-    color: #fff;
+    transform: scale(1);
 }
 
 nav ul li ul {
     position: absolute;
     left: 0;
     width: 180px;
-    background: #fff;
+    background: #151723;
     display: none;
 }
 
@@ -94,4 +93,15 @@ nav ul li:hover>ul {
 
 .logo {
     padding: 0 8%;
+}
+
+.hero {
+    color: #fff;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
