@@ -2,21 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: ralewwayye, sans-serif;
     list-style: none;
     text-decoration: none;
 }
 
 body {
-    background: url(img/);
-    position: relative;
-    font-family: ralewwayye, sans-serif;
-    font-size: 16px;
-    line-height: 1.4;
-    color: #000;
-    min-width: 320px;
-    overflow-x: hidden;
-    height: auto;
+    height: 100vh;
+    background: url(img/wallpaperflare.com_wallpaper\ \(1\).jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 @font-face {
@@ -30,17 +25,44 @@ body {
     font-weight: 900;
 }
 
-.navbar {
-    width: 100%;
-    height: 70px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, .1);
-}
-
-.navbar .container {
-    height: inherit;
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 8%;
+    box-shadow: 0 5px 10px
+    #000;
 }
 
+header .logo {
+    font-size: 20px;
+    font-weight: 900;
+    color: #000;
+    transition: .5s;
+}
 
+header .logo:hover {
+    transform: scale(1.2);
+}
+
+header nav ul li {
+    position: relative;
+    float: left;
+}
+
+header nav ul li a {
+    padding: 15px;
+    color: #000;
+    font-size: 16px;
+    display: block;
+}
+
+header nav ul li a:hover {
+    background-color: #000;
+    color: #fff;
+}
