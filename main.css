@@ -1,3 +1,7 @@
+/* :root {
+    index
+} */
+
 * {
     margin: 0;
     padding: 0;
@@ -30,13 +34,12 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    background: #fff;
+    background: #151723;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 8%;
-    box-shadow: 0 5px 10px
-    #000;
+    box-shadow: 0 5px 10px #000;
 }
 
 header .logo {
@@ -80,6 +83,6 @@ nav ul li ul li {
     border: 1px solid rgba(0, 0, 0, .1);
 }
 
-nav ul li:hover > ul {
+nav ul li:hover>ul {
     display: initial;
 }
