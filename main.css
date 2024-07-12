@@ -30,14 +30,14 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 38px 150px;
+  padding: 35px 150px;
   z-index: 1;
 }
 
 /* Шапка */
 
 .logo {
-  font-size: 1.7em;
+  font-size: 1.8em;
   cursor: default;
   font-weight: 900;
   color: #fff;
@@ -129,6 +129,8 @@ h1 {
 .nav li a {
   color: white;
   font-size: 20px;
+  font-weight: 560;
+  text-shadow: 0 0 10px rgba(235, 235, 235, 0.092);
   text-decoration: none;
 }
 
